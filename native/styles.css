@@ -1,30 +1,25 @@
-body {
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
+header img {
+    width: 170px;
+    height: auto;
 }
 
-.main {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header {
+    padding: 20px 30px;
+    display: flex; /* располагаем лого и контейнер с кнопками смены языка в одну строку */
+    justify-content: space-between; /* располагаем их по разным сторонам шапки */
+    align-items: center; /* выравниваем их по вертикальному центру */
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: fit-content;
-    padding: 24px;
-}
-
-.outline {
-    border: solid 1px #897f7f;
+.language-switcher button {
+    font-weight: bold;
+    background-color: #A46B46;
+    color: white;
+    border: 1px solid #74573d;
     border-radius: 8px;
+    padding: 8px 8px;
+    cursor: pointer;
 }
 
-.card-header {
-    padding: 0px;
-    margin: 0px;
+body {
+    margin: 0;
 }

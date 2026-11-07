@@ -14,7 +14,27 @@
                 <button type="button">EN</button>
             </div>
         </header>
-        <main></main>
+        <main>
+            <div class="login-card">
+                <h1>Вход</h1>
+                <button type="button">Войти с помощью Google</button>
+                <button type="button">Войти с помощью Apple</button>
+                <p class="login-divider">или</p>
+                <form>
+                    <label class="visually-hidden" for="login">Эл. почта или номер телефона</label>
+                    <input id="login" type="text" name="login" placeholder="Эл. почта или номер телефона">
+
+                    <label class="visually-hidden" for="password">Пароль</label>
+                    <input id="password" type="password" name="password" placeholder="Пароль">
+                    <a href="#" class="forgot-password">Забыли пароль?</a>
+
+                    <input id="check" type="checkbox" name="remember" value="yes">
+                    <label for="check">Запомнить меня</label>
+
+                    <button type="submit">Войти</button>
+                </form>
+            </div>
+        </main>
         <footer></footer>
     </body>
 </html>
